@@ -1,0 +1,38 @@
+body {
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #2e7d32;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  opacity: 0.8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
